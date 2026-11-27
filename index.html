@@ -20,18 +20,25 @@
 <body>
 
     <header class="header">
-        <nav class="navbar">
-            <a href="#inicio" class="logo">GG<span>.</span></a>
+ 
+<nav class="navbar">
+    <a href="#inicio" class="logo">GG<span>.</span></a>
 
-            <ul class="nav-links">
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre mim</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+    <button class="menu-toggle" aria-label="Abrir menu"
+        aria-expanded="false">
+        ☰
+    </button>
+
+    <ul class="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+    
     </header>
 
     <main>
@@ -61,39 +68,66 @@
             </div>
         </section>
 
-        <section id="sobre" class="section about">
-            <div class="section-heading">
-                <p class="eyebrow">QUEM SOU</p>
-                <h2>Sobre mim</h2>
-            </div>
+      
+<section id="sobre" class="section about">
+    <div class="section-heading">
+        <p class="eyebrow">QUEM SOU</p>
+        <h2>Sobre mim</h2>
+    </div>
 
-            <div class="about-content">
-                <div class="about-photo">
-                    <img src="assets/images/gabrielly.jpg"
-                         alt="Foto de Gabrielly Guimarães">
+    <div class="about-content">
+
+        <div class="about-photo">
+            <img src="assets/images/gabrielly.jpg"
+                 alt="Foto de Gabrielly Guimarães">
+        </div>
+
+        <div class="about-text">
+            <h3>Tecnologia, criatividade e aprendizado contínuo.</h3>
+
+            <p>
+                Sou estudante de Análise e Desenvolvimento de Sistemas,
+                interessada em explorar diferentes áreas da Tecnologia
+                da Informação e compreender como a tecnologia pode
+                solucionar problemas do cotidiano.
+            </p>
+
+            <p>
+                Minha trajetória é marcada pela curiosidade, organização
+                e vontade de aprender. Gosto de analisar situações,
+                pesquisar possibilidades e desenvolver soluções por
+                meio de projetos práticos.
+            </p>
+
+            <p>
+                Atualmente, estou ampliando meus conhecimentos em
+                programação, desenvolvimento web e banco de dados,
+                enquanto construo meu portfólio e busco minha primeira
+                oportunidade profissional na área de tecnologia.
+            </p>
+
+            <div class="about-details">
+                <div>
+                    <span>FORMAÇÃO</span>
+                    <strong>Análise e Desenvolvimento de Sistemas</strong>
                 </div>
 
-                <div class="about-text">
-                    <h3>Curiosidade que se transforma em conhecimento.</h3>
+                <div>
+                    <span>OBJETIVO</span>
+                    <strong>Primeira oportunidade em TI</strong>
+                </div>
 
-                    <p>
-                        Sou estudante de Tecnologia da Informação e tenho
-                        interesse em explorar diferentes áreas da tecnologia.
-                        Gosto de aprender, investigar problemas e transformar
-                        ideias em soluções.
-                    </p>
-
-                    <p>
-                        Tenho um perfil observador, organizado e dedicado.
-                        Busco minha primeira oportunidade profissional na área
-                        para desenvolver minhas habilidades e adquirir
-                        experiência prática.
-                    </p>
+                <div>
+                    <span>INTERESSES</span>
+                    <strong>Desenvolvimento e tecnologia</strong>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section id="habilidades" class="section">
+    </div>
+</section>
+                      
+    <section id="habilidades" class="section">
             <div class="section-heading">
                 <p class="eyebrow">CONHECIMENTOS</p>
                 <h2>Habilidades</h2>
@@ -122,34 +156,66 @@
             </div>
         </section>
 
-        <section id="projetos" class="section">
-            <div class="section-heading">
-                <p class="eyebrow">MEU TRABALHO</p>
-                <h2>Projetos</h2>
+        
+   <section id="projetos" class="section">
+        <div class="section-heading">
+        <p class="eyebrow">MEU TRABALHO</p>
+        <h2>Projetos em desenvolvimento</h2>
+        <p class="section-description">
+            Ideias que estou transformando em experiências práticas
+            de aprendizado e desenvolvimento.
+        </p>
+    </div>
+
+    <div class="projects-grid">
+
+        <article class="project-card">
+            <span class="project-number">01 / PROJETO PESSOAL</span>
+
+            <h3>Dividi</h3>
+
+            <p>
+                Aplicação voltada à organização e divisão de despesas
+                compartilhadas, com o objetivo de facilitar o controle
+                de gastos entre diferentes pessoas.
+            </p>
+
+            <div class="project-technologies">
+                <span>Python</span>
+                <span>Supabase</span>
+                <span>Banco de dados</span>
             </div>
 
-            <div class="projects-grid">
-                <article class="project-card">
-                    <span class="project-number">01</span>
-                    <h3>Dividi</h3>
-                    <p>
-                        Projeto em desenvolvimento voltado à organização
-                        e divisão de despesas compartilhadas.
-                    </p>
-                    <span class="project-tag">Projeto pessoal</span>
-                </article>
+            <span class="project-status">
+                Em desenvolvimento
+            </span>
+        </article>
 
-                <article class="project-card">
-                    <span class="project-number">02</span>
-                    <h3>TasteMap</h3>
-                    <p>
-                        Protótipo de uma aplicação para explorar restaurantes
-                        e visualizar locais em um mapa.
-                    </p>
-                    <span class="project-tag">Projeto pessoal</span>
-                </article>
+        <article class="project-card">
+            <span class="project-number">02 / PROJETO PESSOAL</span>
+
+            <h3>TasteMap</h3>
+
+            <p>
+                Protótipo de uma aplicação para explorar restaurantes,
+                consultar informações sobre estabelecimentos e visualizar
+                locais em um mapa interativo.
+            </p>
+
+            <div class="project-technologies">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Leaflet</span>
             </div>
-        </section>
+
+            <span class="project-status">
+                Em desenvolvimento
+            </span>
+        </article>
+
+    </div>
+</section>
 
         <section id="formacao" class="section">
             <div class="section-heading">
